@@ -1,0 +1,7 @@
+.show-calendar{
+    position: relative;
+    top: 0;
+    border: 0;
+    min-width: 35rem;
+    flex-wrap: nowrap;
+}

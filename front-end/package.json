@@ -1,0 +1,54 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-daterangepicker": "^3.0.5",
+    "dayjs": "^1.8.16",
+    "dotenv": "^8.2.0",
+    "locale": "^0.1.0",
+    "moment": "^2.24.0",
+    "moment-range": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "rb-datepicker": "0.0.5",
+    "react": "^16.11.0",
+    "react-bootstrap-daterangepicker": "^4.1.0",
+    "react-datepicker": "^2.9.6",
+    "react-daterange-picker": "^2.0.1",
+    "react-dates": "^21.3.1",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "react-usereducer": "^1.0.8",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "front": "set PORT=3002 && react-scripts start",
+    "back": "nodemon ../back-end/bin/www",
+    "start": "npm-run-all -p front back"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "createClass": "^1.0.7",
+    "npm-run-all": "^4.1.5"
+  },
+  "proxy": "http://localhost:3000/"
+}
